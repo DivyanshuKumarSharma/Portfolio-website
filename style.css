@@ -180,11 +180,17 @@ section {
   height: 80vh;
 }
 
+
 .section__pic-container {
   display: flex;
   height: 700px;
   width: 700px;
   margin: auto 30px;
+}
+
+.text-container p {
+  font-weight: 500;
+  font-style: italic;
 }
 
 .section__text {
@@ -193,6 +199,7 @@ section {
 }
 
 .section__text p {
+  font-weight: bold;
   font-weight: 600;
 }
 
