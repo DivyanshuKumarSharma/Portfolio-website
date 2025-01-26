@@ -8,7 +8,18 @@
 }
 
 body {
+  background: linear-gradient(120deg, #84fab0, #8fd3f4, #c0aaf8, #f8a5c2, #f8a5c2, #f8a5c2); 
   font-family: "Poppins", sans-serif;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  background-color: linear-gradient(120deg, #84fab0, #8fd3f4, #c0aaf8, #f8a5c2, #f8a5c2, #f8a5c2); 
 }
 
 html {
